@@ -12,7 +12,7 @@ export function Contacts() {
   return (
     <div style={{ minHeight: "100vh", background: "#f5f0e8", paddingTop: 70 }}>
       <div className="relative overflow-hidden" style={{ background: "#0d1b2a", padding: "40px 24px" }}>
-        <img src="/assets/images/photo-1606857521015-7f9fcf423740.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
+        <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=1200&q=80" alt="" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(13,27,42,0.78) 30%, rgba(13,27,42,0.42) 100%)" }} />
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="flex items-center gap-2 text-sm mb-3" style={{ color: "rgba(255,255,255,0.45)" }}>

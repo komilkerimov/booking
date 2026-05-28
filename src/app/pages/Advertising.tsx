@@ -5,7 +5,7 @@ export function Advertising() {
     <InfoPage
       title="Реклама и PR"
       subtitle="Размещение рекламы и сотрудничество со СМИ"
-      bgImage="/assets/images/photo-1557838923-2985c318be48.jpg"
+      bgImage="https://images.unsplash.com/photo-1557838923-2985c318be48?w=1200&q=80"
       sections={[
         {
           title: "Рекламные возможности",

@@ -15,7 +15,7 @@ export function About() {
     <div style={{ minHeight: "100vh", background: "#f5f0e8", paddingTop: 70 }}>
       {/* Hero */}
       <div className="relative overflow-hidden py-20 px-6" style={{ background: "#0d1b2a" }}>
-        <img src="/assets/images/photo-1715540335937-f54bf332585a.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.52 }} />
+        <img src="https://images.unsplash.com/photo-1715540335937-f54bf332585a?w=1200&q=80" alt="" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.52 }} />
         <div className="absolute inset-0" style={{ background: "rgba(13,27,42,0.55)" }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <p className="text-sm tracking-widest uppercase mb-3" style={{ color: "#c9963a", fontWeight: 500, letterSpacing: "0.12em" }}>О компании</p>

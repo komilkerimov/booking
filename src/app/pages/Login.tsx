@@ -75,9 +75,9 @@ export function Login() {
         </div>
         <div className="flex gap-2">
           {[
-            "/assets/images/photo-1664602078796-68ee76b3fc59.jpg",
-            "/assets/images/photo-1774851431070-f1cbba496e41.jpg",
-            "/assets/images/photo-1629140727571-9b5c6f6267b4.jpg",
+            "https://images.unsplash.com/photo-1664602078796-68ee76b3fc59?w=1200&q=80",
+            "https://images.unsplash.com/photo-1774851431070-f1cbba496e41?w=1200&q=80",
+            "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=1200&q=80",
           ].map((src, i) => (
             <div key={i} className="flex-1 rounded-sm overflow-hidden" style={{ height: 80 }}>
               <img src={src} alt="" className="w-full h-full object-cover" style={{ opacity: 0.7 }} />

@@ -2,7 +2,7 @@ import { useNavigate } from "react-router";
 import { DESTINATIONS } from "../data";
 import { MapPin, ChevronRight } from "lucide-react";
 
-const HERO = "/assets/images/photo-1778867363464-21b77cb40c5a.jpg";
+const HERO = "https://images.unsplash.com/photo-1778867363464-21b77cb40c5a?w=1200&q=80";
 
 export function Destinations() {
   const navigate = useNavigate();

@@ -3,10 +3,10 @@ import { useNavigate } from "react-router";
 import { MapPin, Calendar, ChevronDown, X, Star, Download, RotateCcw } from "lucide-react";
 
 const ALL_BOOKINGS = [
-  { id: "HRM-284510", hotel: "Silk Road Grand Hotel", location: "Самарканд", room: "Делюкс с видом", checkIn: "2024-03-15", checkOut: "2024-03-18", nights: 3, guests: 2, status: "completed", price: 567000, cashback: 85050, rating: 5, image: "/assets/images/photo-1629140727571-9b5c6f6267b4.jpg", hotelId: 1 },
-  { id: "HRM-193042", hotel: "Lyabi House Boutique", location: "Бухара", room: "Сьюит", checkIn: "2024-05-01", checkOut: "2024-05-04", nights: 3, guests: 2, status: "upcoming", price: 645000, cashback: 129000, rating: 0, image: "/assets/images/photo-1731336478850-6bce7235e320.jpg", hotelId: 3 },
-  { id: "HRM-102398", hotel: "Malika Classic", location: "Самарканд", room: "Стандартный", checkIn: "2024-01-10", checkOut: "2024-01-12", nights: 2, guests: 1, status: "completed", price: 134000, cashback: 10720, rating: 4, image: "/assets/images/photo-1590675560125-0d832b9d719e.jpg", hotelId: 6 },
-  { id: "HRM-088741", hotel: "Registan Palace", location: "Самарканд", room: "Стандартный", checkIn: "2023-11-20", checkOut: "2023-11-23", nights: 3, guests: 2, status: "cancelled", price: 372000, cashback: 0, rating: 0, image: "/assets/images/photo-1578898886225-c7c894047899.jpg", hotelId: 2 },
+  { id: "HRM-284510", hotel: "Silk Road Grand Hotel", location: "Самарканд", room: "Делюкс с видом", checkIn: "2024-03-15", checkOut: "2024-03-18", nights: 3, guests: 2, status: "completed", price: 567000, cashback: 85050, rating: 5, image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=1200&q=80", hotelId: 1 },
+  { id: "HRM-193042", hotel: "Lyabi House Boutique", location: "Бухара", room: "Сьюит", checkIn: "2024-05-01", checkOut: "2024-05-04", nights: 3, guests: 2, status: "upcoming", price: 645000, cashback: 129000, rating: 0, image: "https://images.unsplash.com/photo-1731336478850-6bce7235e320?w=1200&q=80", hotelId: 3 },
+  { id: "HRM-102398", hotel: "Malika Classic", location: "Самарканд", room: "Стандартный", checkIn: "2024-01-10", checkOut: "2024-01-12", nights: 2, guests: 1, status: "completed", price: 134000, cashback: 10720, rating: 4, image: "https://images.unsplash.com/photo-1590675560125-0d832b9d719e?w=1200&q=80", hotelId: 6 },
+  { id: "HRM-088741", hotel: "Registan Palace", location: "Самарканд", room: "Стандартный", checkIn: "2023-11-20", checkOut: "2023-11-23", nights: 3, guests: 2, status: "cancelled", price: 372000, cashback: 0, rating: 0, image: "https://images.unsplash.com/photo-1578898886225-c7c894047899?w=1200&q=80", hotelId: 2 },
 ];
 
 const STATUS_MAP: Record<string, { label: string; bg: string; color: string }> = {

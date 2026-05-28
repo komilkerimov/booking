@@ -136,7 +136,7 @@ export function Register() {
           </div>
         </div>
         <img
-          src="/assets/images/photo-1774851071998-e10c352a9fd2.jpg"
+          src="https://images.unsplash.com/photo-1774851071998-e10c352a9fd2?w=1200&q=80"
           alt="Самарканд"
           className="rounded-sm w-full object-cover"
           style={{ height: 140, opacity: 0.65 }}
