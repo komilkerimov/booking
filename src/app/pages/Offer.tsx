@@ -5,7 +5,7 @@ export function Offer() {
     <InfoPage
       title="Публичная оферта"
       subtitle="Договор оказания услуг по бронированию средств размещения"
-      bgImage="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&q=80"
+      bgImage="/assets/images/photo-1450101499163-c8848c66ca85.jpg"
       sections={[
         {
           title: "1. Общие положения",

@@ -2,8 +2,8 @@ import { useNavigate } from "react-router";
 import { CalendarCheck, Sparkles, CreditCard, ChevronRight, Star, MapPin, TrendingUp } from "lucide-react";
 
 const RECENT_BOOKINGS = [
-  { id: "HRM-284510", hotel: "Silk Road Grand Hotel", location: "Самарканд", checkIn: "2024-03-15", checkOut: "2024-03-18", status: "completed", price: 567000, image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=200&h=120&fit=crop" },
-  { id: "HRM-193042", hotel: "Lyabi House Boutique", location: "Бухара", checkIn: "2024-05-01", checkOut: "2024-05-04", status: "upcoming", price: 645000, image: "https://images.unsplash.com/photo-1731336478850-6bce7235e320?w=200&h=120&fit=crop" },
+  { id: "HRM-284510", hotel: "Silk Road Grand Hotel", location: "Самарканд", checkIn: "2024-03-15", checkOut: "2024-03-18", status: "completed", price: 567000, image: "/assets/images/photo-1629140727571-9b5c6f6267b4.jpg" },
+  { id: "HRM-193042", hotel: "Lyabi House Boutique", location: "Бухара", checkIn: "2024-05-01", checkOut: "2024-05-04", status: "upcoming", price: 645000, image: "/assets/images/photo-1731336478850-6bce7235e320.jpg" },
 ];
 
 const STATUS_MAP: Record<string, { label: string; bg: string; color: string }> = {
@@ -101,8 +101,8 @@ export function Dashboard() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {[
-            { name: "Orient Star Khiva", loc: "Хива", price: 98000, rating: 4.6, img: "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=400&h=220&fit=crop", id: 4 },
-            { name: "Malika Classic", loc: "Самарканд", price: 67000, rating: 4.2, img: "https://images.unsplash.com/photo-1590675560125-0d832b9d719e?w=400&h=220&fit=crop", id: 6 },
+            { name: "Orient Star Khiva", loc: "Хива", price: 98000, rating: 4.6, img: "/assets/images/photo-1605346434674-a440ca4dc4c0.jpg", id: 4 },
+            { name: "Malika Classic", loc: "Самарканд", price: 67000, rating: 4.2, img: "/assets/images/photo-1590675560125-0d832b9d719e.jpg", id: 6 },
           ].map((h) => (
             <button key={h.id} onClick={() => navigate(`/hotel/${h.id}`)} className="rounded-sm overflow-hidden text-left transition-all group" style={{ border: "1px solid rgba(13,27,42,0.08)", background: "#fff", cursor: "pointer", padding: 0 }}>
               <div style={{ height: 110, overflow: "hidden" }}>

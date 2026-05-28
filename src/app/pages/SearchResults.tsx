@@ -167,7 +167,7 @@ export function SearchResults() {
     <div style={{ paddingTop: 70, minHeight: "100vh" }}>
       {/* Banner */}
       <div className="relative overflow-hidden" style={{ background: "#0d1b2a", padding: "28px 24px 20px" }}>
-        <img src="https://images.unsplash.com/photo-1664602078796-68ee76b3fc59?w=1600&q=80" alt="" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
+        <img src="/assets/images/photo-1664602078796-68ee76b3fc59.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(13,27,42,0.78) 30%, rgba(13,27,42,0.42) 100%)" }} />
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-sm mb-3" style={{ color: "rgba(255,255,255,0.4)" }}>

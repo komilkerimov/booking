@@ -5,7 +5,7 @@ export function Privacy() {
     <InfoPage
       title="Политика конфиденциальности"
       subtitle="Как мы собираем, используем и защищаем ваши данные"
-      bgImage="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1600&q=80"
+      bgImage="/assets/images/photo-1614064641938-3bbee52942c7.jpg"
       sections={[
         {
           title: "1. Какие данные мы собираем",

@@ -5,7 +5,7 @@ import { HotelCard } from "../components/HotelCard";
 import { HOTELS, DESTINATIONS } from "../data";
 import { Shield, Headphones, CreditCard, Star, ChevronRight } from "lucide-react";
 
-const HERO = "https://images.unsplash.com/photo-1664602078796-68ee76b3fc59?w=1800&h=900&fit=crop&auto=format";
+const HERO = "/assets/images/photo-1664602078796-68ee76b3fc59.jpg";
 
 const REVIEWS = [
   { id: 1, name: "Дилноза Юсупова", city: "Ташкент", text: "Забронировала отель в Самарканде за 5 минут. Кэшбек пришёл мгновенно, сервис на высшем уровне!", rating: 5, hotel: "Silk Road Grand Hotel" },
