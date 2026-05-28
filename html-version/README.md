@@ -1,13 +1,29 @@
 # MDK Travel HTML version
 
-Статическая версия сайта бронирования отелей без React: чистые HTML, CSS и JavaScript.
+Многостраничная статическая версия сайта бронирования отелей без React: чистые HTML, CSS и JavaScript.
 
-## Файлы
+## Основные страницы
 
-- `index.html` — единая HTML-страница приложения.
-- `styles.css` — адаптивная тёмно-синяя/золотая стилизация.
-- `app.js` — маршрутизация по hash-ссылкам, карточки отелей, формы поиска, бронирования, входа и регистрации.
+- `index.html` — главная
+- `destinations.html` — направления
+- `destination-detail.html` — детальная страница направления
+- `hotels.html` — отели
+- `hotel-detail.html` — детальная страница отеля
+- `search.html` — расширенный поиск
+- `booking.html` — бронирование
+- `payment.html` — оплата
+- `confirmation.html` — подтверждение заявки
+- `about.html` — о нас
+- `contacts.html` — контакты
+- `login.html` — вход
+- `register.html` — регистрация
+- `account.html` — личный кабинет
+- `bookings.html` — мои бронирования
+- `profile.html` — профиль
+- `faq.html` — FAQ
+- `terms.html` — условия использования
+- `privacy.html` — политика конфиденциальности
 
 ## Запуск
 
-Откройте `index.html` в браузере или разместите папку `html-version/` на любом статическом хостинге.
+Откройте `html-version/index.html` в браузере или разместите папку на любом статическом хостинге.
